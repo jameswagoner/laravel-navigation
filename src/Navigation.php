@@ -23,7 +23,7 @@ class Navigation implements Node
         $this->children = [];
     }
 
-    public static function make(): static
+    public static function make()
     {
         return app(static::class);
     }
